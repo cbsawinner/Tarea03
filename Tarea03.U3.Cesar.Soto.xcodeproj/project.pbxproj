@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBCA68AB1C44AACC007C67DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCA68AA1C44AACC007C67DD /* AppDelegate.swift */; };
+		DBCA68AD1C44AACC007C67DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCA68AC1C44AACC007C67DD /* ViewController.swift */; };
+		DBCA68B01C44AACC007C67DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBCA68AE1C44AACC007C67DD /* Main.storyboard */; };
+		DBCA68B21C44AACC007C67DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCA68B11C44AACC007C67DD /* Assets.xcassets */; };
+		DBCA68B51C44AACC007C67DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBCA68B31C44AACC007C67DD /* LaunchScreen.storyboard */; };
+		DBCA68C01C44AACC007C67DD /* Tarea03_U3_Cesar_SotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCA68BF1C44AACC007C67DD /* Tarea03_U3_Cesar_SotoTests.swift */; };
+		DBCA68CB1C44AACC007C67DD /* Tarea03_U3_Cesar_SotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCA68CA1C44AACC007C67DD /* Tarea03_U3_Cesar_SotoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBCA68BC1C44AACC007C67DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBCA689F1C44AACB007C67DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBCA68A61C44AACC007C67DD;
+			remoteInfo = Tarea03.U3.Cesar.Soto;
+		};
+		DBCA68C71C44AACC007C67DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBCA689F1C44AACB007C67DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBCA68A61C44AACC007C67DD;
+			remoteInfo = Tarea03.U3.Cesar.Soto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBCA68A71C44AACC007C67DD /* Tarea03.U3.Cesar.Soto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tarea03.U3.Cesar.Soto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBCA68AA1C44AACC007C67DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBCA68AC1C44AACC007C67DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBCA68AF1C44AACC007C67DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBCA68B11C44AACC007C67DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBCA68B41C44AACC007C67DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBCA68B61C44AACC007C67DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBCA68BB1C44AACC007C67DD /* Tarea03.U3.Cesar.SotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tarea03.U3.Cesar.SotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBCA68BF1C44AACC007C67DD /* Tarea03_U3_Cesar_SotoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarea03_U3_Cesar_SotoTests.swift; sourceTree = "<group>"; };
+		DBCA68C11C44AACC007C67DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBCA68C61C44AACC007C67DD /* Tarea03.U3.Cesar.SotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tarea03.U3.Cesar.SotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBCA68CA1C44AACC007C67DD /* Tarea03_U3_Cesar_SotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarea03_U3_Cesar_SotoUITests.swift; sourceTree = "<group>"; };
+		DBCA68CC1C44AACC007C67DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBCA68A41C44AACC007C67DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCA68B81C44AACC007C67DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCA68C31C44AACC007C67DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBCA689E1C44AACB007C67DD = {
+			isa = PBXGroup;
+			children = (
+				DBCA68A91C44AACC007C67DD /* Tarea03.U3.Cesar.Soto */,
+				DBCA68BE1C44AACC007C67DD /* Tarea03.U3.Cesar.SotoTests */,
+				DBCA68C91C44AACC007C67DD /* Tarea03.U3.Cesar.SotoUITests */,
+				DBCA68A81C44AACC007C67DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBCA68A81C44AACC007C67DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBCA68A71C44AACC007C67DD /* Tarea03.U3.Cesar.Soto.app */,
+				DBCA68BB1C44AACC007C67DD /* Tarea03.U3.Cesar.SotoTests.xctest */,
+				DBCA68C61C44AACC007C67DD /* Tarea03.U3.Cesar.SotoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBCA68A91C44AACC007C67DD /* Tarea03.U3.Cesar.Soto */ = {
+			isa = PBXGroup;
+			children = (
+				DBCA68AA1C44AACC007C67DD /* AppDelegate.swift */,
+				DBCA68AC1C44AACC007C67DD /* ViewController.swift */,
+				DBCA68AE1C44AACC007C67DD /* Main.storyboard */,
+				DBCA68B11C44AACC007C67DD /* Assets.xcassets */,
+				DBCA68B31C44AACC007C67DD /* LaunchScreen.storyboard */,
+				DBCA68B61C44AACC007C67DD /* Info.plist */,
+			);
+			path = Tarea03.U3.Cesar.Soto;
+			sourceTree = "<group>";
+		};
+		DBCA68BE1C44AACC007C67DD /* Tarea03.U3.Cesar.SotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBCA68BF1C44AACC007C67DD /* Tarea03_U3_Cesar_SotoTests.swift */,
+				DBCA68C11C44AACC007C67DD /* Info.plist */,
+			);
+			path = Tarea03.U3.Cesar.SotoTests;
+			sourceTree = "<group>";
+		};
+		DBCA68C91C44AACC007C67DD /* Tarea03.U3.Cesar.SotoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBCA68CA1C44AACC007C67DD /* Tarea03_U3_Cesar_SotoUITests.swift */,
+				DBCA68CC1C44AACC007C67DD /* Info.plist */,
+			);
+			path = Tarea03.U3.Cesar.SotoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBCA68A61C44AACC007C67DD /* Tarea03.U3.Cesar.Soto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBCA68CF1C44AACC007C67DD /* Build configuration list for PBXNativeTarget "Tarea03.U3.Cesar.Soto" */;
+			buildPhases = (
+				DBCA68A31C44AACC007C67DD /* Sources */,
+				DBCA68A41C44AACC007C67DD /* Frameworks */,
+				DBCA68A51C44AACC007C67DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tarea03.U3.Cesar.Soto;
+			productName = Tarea03.U3.Cesar.Soto;
+			productReference = DBCA68A71C44AACC007C67DD /* Tarea03.U3.Cesar.Soto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBCA68BA1C44AACC007C67DD /* Tarea03.U3.Cesar.SotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBCA68D21C44AACC007C67DD /* Build configuration list for PBXNativeTarget "Tarea03.U3.Cesar.SotoTests" */;
+			buildPhases = (
+				DBCA68B71C44AACC007C67DD /* Sources */,
+				DBCA68B81C44AACC007C67DD /* Frameworks */,
+				DBCA68B91C44AACC007C67DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBCA68BD1C44AACC007C67DD /* PBXTargetDependency */,
+			);
+			name = Tarea03.U3.Cesar.SotoTests;
+			productName = Tarea03.U3.Cesar.SotoTests;
+			productReference = DBCA68BB1C44AACC007C67DD /* Tarea03.U3.Cesar.SotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBCA68C51C44AACC007C67DD /* Tarea03.U3.Cesar.SotoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBCA68D51C44AACC007C67DD /* Build configuration list for PBXNativeTarget "Tarea03.U3.Cesar.SotoUITests" */;
+			buildPhases = (
+				DBCA68C21C44AACC007C67DD /* Sources */,
+				DBCA68C31C44AACC007C67DD /* Frameworks */,
+				DBCA68C41C44AACC007C67DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBCA68C81C44AACC007C67DD /* PBXTargetDependency */,
+			);
+			name = Tarea03.U3.Cesar.SotoUITests;
+			productName = Tarea03.U3.Cesar.SotoUITests;
+			productReference = DBCA68C61C44AACC007C67DD /* Tarea03.U3.Cesar.SotoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBCA689F1C44AACB007C67DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Cesar Soto Alarcon";
+				TargetAttributes = {
+					DBCA68A61C44AACC007C67DD = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 6Y7558TDYY;
+					};
+					DBCA68BA1C44AACC007C67DD = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 6Y7558TDYY;
+						TestTargetID = DBCA68A61C44AACC007C67DD;
+					};
+					DBCA68C51C44AACC007C67DD = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 6Y7558TDYY;
+						TestTargetID = DBCA68A61C44AACC007C67DD;
+					};
+				};
+			};
+			buildConfigurationList = DBCA68A21C44AACB007C67DD /* Build configuration list for PBXProject "Tarea03.U3.Cesar.Soto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBCA689E1C44AACB007C67DD;
+			productRefGroup = DBCA68A81C44AACC007C67DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBCA68A61C44AACC007C67DD /* Tarea03.U3.Cesar.Soto */,
+				DBCA68BA1C44AACC007C67DD /* Tarea03.U3.Cesar.SotoTests */,
+				DBCA68C51C44AACC007C67DD /* Tarea03.U3.Cesar.SotoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBCA68A51C44AACC007C67DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCA68B51C44AACC007C67DD /* LaunchScreen.storyboard in Resources */,
+				DBCA68B21C44AACC007C67DD /* Assets.xcassets in Resources */,
+				DBCA68B01C44AACC007C67DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCA68B91C44AACC007C67DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCA68C41C44AACC007C67DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBCA68A31C44AACC007C67DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCA68AD1C44AACC007C67DD /* ViewController.swift in Sources */,
+				DBCA68AB1C44AACC007C67DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCA68B71C44AACC007C67DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCA68C01C44AACC007C67DD /* Tarea03_U3_Cesar_SotoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCA68C21C44AACC007C67DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCA68CB1C44AACC007C67DD /* Tarea03_U3_Cesar_SotoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBCA68BD1C44AACC007C67DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBCA68A61C44AACC007C67DD /* Tarea03.U3.Cesar.Soto */;
+			targetProxy = DBCA68BC1C44AACC007C67DD /* PBXContainerItemProxy */;
+		};
+		DBCA68C81C44AACC007C67DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBCA68A61C44AACC007C67DD /* Tarea03.U3.Cesar.Soto */;
+			targetProxy = DBCA68C71C44AACC007C67DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBCA68AE1C44AACC007C67DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBCA68AF1C44AACC007C67DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBCA68B31C44AACC007C67DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBCA68B41C44AACC007C67DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBCA68CD1C44AACC007C67DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBCA68CE1C44AACC007C67DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBCA68D01C44AACC007C67DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tarea03.U3.Cesar.Soto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Inacap.Tarea03-U3-Cesar-Soto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBCA68D11C44AACC007C67DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tarea03.U3.Cesar.Soto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Inacap.Tarea03-U3-Cesar-Soto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DBCA68D31C44AACC007C67DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Tarea03.U3.Cesar.SotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Inacap.Tarea03-U3-Cesar-SotoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tarea03.U3.Cesar.Soto.app/Tarea03.U3.Cesar.Soto";
+			};
+			name = Debug;
+		};
+		DBCA68D41C44AACC007C67DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Tarea03.U3.Cesar.SotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Inacap.Tarea03-U3-Cesar-SotoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tarea03.U3.Cesar.Soto.app/Tarea03.U3.Cesar.Soto";
+			};
+			name = Release;
+		};
+		DBCA68D61C44AACC007C67DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tarea03.U3.Cesar.SotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Inacap.Tarea03-U3-Cesar-SotoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tarea03.U3.Cesar.Soto;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DBCA68D71C44AACC007C67DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tarea03.U3.Cesar.SotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Inacap.Tarea03-U3-Cesar-SotoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tarea03.U3.Cesar.Soto;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBCA68A21C44AACB007C67DD /* Build configuration list for PBXProject "Tarea03.U3.Cesar.Soto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCA68CD1C44AACC007C67DD /* Debug */,
+				DBCA68CE1C44AACC007C67DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBCA68CF1C44AACC007C67DD /* Build configuration list for PBXNativeTarget "Tarea03.U3.Cesar.Soto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCA68D01C44AACC007C67DD /* Debug */,
+				DBCA68D11C44AACC007C67DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBCA68D21C44AACC007C67DD /* Build configuration list for PBXNativeTarget "Tarea03.U3.Cesar.SotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCA68D31C44AACC007C67DD /* Debug */,
+				DBCA68D41C44AACC007C67DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBCA68D51C44AACC007C67DD /* Build configuration list for PBXNativeTarget "Tarea03.U3.Cesar.SotoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCA68D61C44AACC007C67DD /* Debug */,
+				DBCA68D71C44AACC007C67DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBCA689F1C44AACB007C67DD /* Project object */;
+}
