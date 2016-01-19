@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    /*
+    
+    Seccion de Declaracion de Variables y Outlet
+    */
+    
     @IBOutlet weak var txtTemp: UITextField!
     @IBOutlet weak var lblConverted: UILabel!
     
@@ -25,6 +30,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    /*
+    
+    Acción para evaluar cuando se presiona un botón de conversion
+    como cuando se convierte a Celsius o a Fahrenheit
+    */
     @IBAction func indexChanged(sender: AnyObject) {
         var num :Float
                let numberformatted=NSNumberFormatter()
